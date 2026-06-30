@@ -1,0 +1,12 @@
+{
+  "name": "codealpha-pm-monolith",
+  "version": "1.0.0",
+  "description": "Collaborative Project Management Tool Monolith",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "build": "cd frontend && npm install && npm run build && cd .. && mkdir -p public && cp -r frontend/dist/* public/ && cd backend && npm install",
+    "start": "node backend/server.js"
+  }
+}
