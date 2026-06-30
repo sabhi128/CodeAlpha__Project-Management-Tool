@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment configurations & credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Project-specific instructions & local files
+*.pdf
+Full Stack Development Tasks & Instructions — CodeAlpha M1.pdf
+.agents/
+.gemini/
+*.log
